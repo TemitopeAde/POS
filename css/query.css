@@ -1,0 +1,934 @@
+@media only screen and (max-width: 1440px) {
+    .main-container .main-wrap {
+        padding: 6rem 6rem;
+    }
+
+    .invent {
+        padding: 6rem 6rem;
+    }
+
+    .footer-inventory-wrap {
+        padding: 6rem 6rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 1290px) {
+    /* .sidebar {
+        display: none;
+    } */
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    .main-container .main-wrap {
+        padding: 6rem 3.5rem;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .row {
+        font-size: 0.76rem;
+    }
+
+    .add-product-box {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .tab-menu-item label {
+        height: 400px;
+    }
+
+    .advanced-box-flex {
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+    .sell-keys-box {
+        grid-template-columns: 1fr;
+    }
+    .title-container p {
+        padding-left: 1rem;
+    }
+    .app-sections {
+        padding: 3rem 1rem;
+    }
+    .index-items img {
+        height: 80px;
+    }
+    .back-btn,
+    .next-btn {
+        top: -45px
+    }
+    .index-grid-box,
+    .index-inner-grid{
+        grid-template-columns: 1fr;
+    }
+    .mySlides {
+        padding-bottom: 1rem;
+    }
+    .index-grid-1 {
+        grid-column: 1/-1;
+    }
+    .index-grid-box  {
+        grid-template-columns: 1fr;
+        padding: 3rem 1rem
+    }
+    .index-grid-items {
+        grid-template-columns: 1fr;
+        padding: 3rem 1rem
+    }
+
+    .status h1,
+    .status p {
+        font-size: .7rem;
+    }
+    
+    .receive-stock-flex, .receive-stock-flex-2,
+    .receive-cont-flex{
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+
+    .receive-stock-box,
+    .receive-stock-flex-2{
+        padding: 3rem 1rem;
+    }
+
+    .pro-tag-table .row {
+        padding: 15px 1rem;
+    }
+    .payment-body .row {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .add-product-box {
+        grid-template-columns: 1fr;
+        row-gap: 30px
+    }
+    .brands-table {
+        padding: 3rem 1rem
+    }
+    .add-sections {
+       grid-template-columns: 1fr;
+    }
+
+    .inventory-tab {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .inv-tabs div {
+        padding: .5rem .4rem;
+    }
+    .inventory-tab {
+        padding: 0.8rem 1rem
+    }
+    .sell-content {
+        padding: 3rem 1rem;
+    }
+    .promotions-tabs-box .tabcontent {
+        padding-top: .4rem;
+    }
+      
+    .promotions-tabs-box {padding: 3rem 1rem}
+    .price-books-table {
+        padding: 1.2rem 1rem;
+    }
+    .introduction {
+        padding: 0 1rem;
+    }
+    .catalog-table-head .row {
+        padding: 15px 1rem
+    }
+
+    .sales-history-cont {
+        padding: 1.3rem 1rem;
+    }
+    
+    .catalog-table-body .row {
+        padding: 15px 1rem
+    }
+    .supliers-table {
+        padding: 3rem 1rem
+    }
+    .import-button a {
+        font-size: .6rem;
+        padding: 8px
+    }
+
+    .import-button {
+        column-gap: 10px;
+    }
+    .inventorybox {
+        column-gap: 15px;
+        padding: 1rem 9px;
+    }
+    .inventorywrap {
+        padding: 2rem 1rem;
+    }
+    .padding-desktop {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .sales-tax {
+        padding: 1rem
+    }
+    .serial-container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .table-wrap {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .postal-div {
+        grid-column: 1/-1;
+    }
+    .add-supplier-body-form-3 {
+        grid-template-columns: 1fr;
+    }
+    .add-supplier-body-form-2 {
+        grid-template-columns: 1fr;
+    }
+    .add-supplier-wrap {
+        grid-template-columns: 1fr;
+        gap: 30px
+    }
+    .add-supplier-body-form {
+        grid-template-columns: 1fr;
+    }
+        
+    .suppliers-add-cont {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .basic-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 1.7rem;
+    }
+    .containers .label {
+        font-size: .65rem;
+    }
+
+    .apply-div {
+        min-height: 230px;
+    }
+
+    .apply-div button {
+        font-size: .7rem;
+    }
+    .promotion-sect,
+    .promotion-section{
+        row-gap: 28px;
+        grid-template-columns: 1fr;
+    }
+    .promotion-box-wrap {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    ::placeholder {
+        font-size: 0.67rem;
+    }
+
+    .sku-form-box,
+    .sku-2-box{
+        grid-template-columns: 1fr;
+        row-gap: 16px;
+    }
+
+
+    .sku-form-box label {
+        font-size: .7rem;
+    }
+
+    .sku-container, .sku-container form {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+    .forms-tab-container section {
+        flex-direction: column;
+    }
+
+    .tab-menu-item label {
+        height: 250px;
+    }
+
+    .report-cap {
+        padding: 2rem 1rem;
+    }
+
+    .toggle {
+        display: block;
+    }
+
+    .section-1 {
+        visibility: hidden;
+    }
+
+    .sidebar {
+        transform: translateX(-100%);
+    }
+
+    .closebtn {
+        display: block;
+    }
+
+    .new-sidebar {
+        transform: translateX(-1000%);
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    .inventory-container {
+        display: block;
+    }
+
+    .invent {
+        padding: 6rem 3.5rem;
+    }
+
+    .footer-inventory-wrap {
+        padding: 6rem 3.5rem;
+        display: block;
+    }
+
+    .technical .technical-img {
+        display: none;
+    }
+
+    .footer-inventory-box {
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    .footer-inventory-box .technical {
+        margin-bottom: 40px;
+        margin-right: 0;
+        display: block;
+    }
+
+    .inventory-wrap {
+        display: block;
+    }
+
+    .inventory-wrap .video {
+        margin-bottom: 40px;
+    }
+
+    .main-container .main-wrap {
+        display: block;
+        padding: 6rem 3.5rem;
+    }
+
+    .card img {
+        height: 150px;
+    }
+
+    .main-container .card {
+        margin-bottom: 40px;
+    }
+
+    .inventory-box {
+        margin-bottom: 40px;
+    }
+
+    .inventory {
+        margin-right: 0;
+    }
+
+    .technical .techical-two p {
+        width: 100%;
+    }
+
+    .footer-inventory-box {
+        margin-right: 0px;
+    }
+
+
+
+    /* CATALOG PAGE */
+
+    .section-two .section-two-box {
+        display: block;
+        padding: 2rem 3rem;
+    }
+
+    #catalog-main .content-box .section-three {
+        padding: 0rem 3rem;
+        padding-bottom: 2rem;
+    }
+
+    .section-two-box .container {
+        margin-bottom: 2rem;
+    }
+
+    .section-three form .form-1, .section-three form .form-2 {
+        display: block;
+    }
+
+    .forms {
+        margin-bottom: 25px;
+    }
+
+    #catalog-main .content-wrap-grid {
+        display: block;
+    }
+
+    #catalog-main .add-hero {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 25px;
+        padding: 1rem;
+    }
+
+
+    .gift-card-wrapper {
+        display: block;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .introduction .introduction-wrap {
+        width: 100%;
+    }
+
+    .gift-card-wrapper .container {
+        margin-bottom: 50px;
+    }
+
+    #catalog-main {
+        margin-left: 0px;
+    }
+
+    .main .activate {
+        left: 0;
+    }
+
+    .sell-wrap {
+        margin-bottom: 40px;
+    }
+
+    .sell-content .content-box .sell-wrap {
+        padding: 2rem 1.5rem;
+    }
+
+    .openclosecontent {
+        padding: 3rem 3rem;
+    }
+
+    .sales-form .first-form, .sales-form .hidden-form {
+        display: block;
+        /* padding: 0 1rem; */
+    }
+
+    .input {
+        padding-left: 4px;
+    }
+
+    .sales-form .first-form, .sales-form .hidden-form {
+        margin-bottom: 0;
+    }
+
+    .closebtn2 {
+        display: block;
+    }
+
+    .status {
+        padding: 2rem 2rem;
+    }
+
+    .settings-wrap {
+        display: block;
+    }
+    
+    .section-1-2 {
+        margin-top: 20px;
+    }
+
+    .new-layout {
+        display: block;
+    }
+    
+    .new-layout h3 {
+        padding: 5px
+    }
+
+    .new-layout-items {
+        padding: 5px
+    }
+
+    .layout-btn {
+        padding: 5px
+    }
+
+    .inventory-grid {
+        display: block;
+    }
+
+    .inventory-grid .start-date {
+        margin-bottom: 20px;
+    }
+
+    .balance-profit-grid {
+        display: block;
+    }
+    .group-table {
+        padding: 30px 1.5rem;
+    }
+    .store-setup .store,
+    .basic-setup .basic,
+    .address-setup .address{
+        display: block;
+        padding: 2rem 1.55rem
+    }
+    
+    .address .grid-2 {
+        margin-top: 3rem;
+    }
+
+    .submit-buttons {
+        left: 1.55rem
+    }
+    .store-setup h3,
+    .basic-setup h3,
+    .address-setup h3{
+        padding: 19px 1.55rem;
+        background: var(--lightblue);
+        color: var(--white);
+    }
+
+    .users-container form {
+        display: block;
+        padding: 1.5rem
+    }
+
+    .users-container .form-field {
+        margin-bottom: 30px;
+    }
+    .user-table-container {
+        padding: 0 1rem;
+    }
+
+    .user-table-head h3 {
+        font-size: .6rem;
+    }
+    .app-2-grid,
+    .app-1-grid,
+    .app-3-grid {
+        display: block;
+    }
+
+    .app-sections .apps,
+    .app-sections .app {
+        margin-bottom: 35px;
+    }
+
+    /* .table-wrap-token {
+        padding: 1rem;
+    } */
+
+    .table-wrap-token h3 {
+        font-size: 0.6rem;
+    }
+
+    .table-wrap-token h5 {
+        font-size: .5rem;
+    }
+
+    .enable-switch {
+        column-gap: 13px;
+        padding: 1.3rem;
+    }
+
+    .table-body.row {
+        padding: 15px 1rem;
+    }
+
+    .section-four-wrapper {
+        padding: 0 1rem
+    }
+    
+    .customer-form-show {
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+        margin-bottom: 30px;
+    }
+
+    .customer-form {
+        padding: 2.5rem 1rem;
+     }
+
+    .workflow form {
+        display: block;
+        padding: 1rem;
+        line-height: 40px;
+    }
+    
+    .workflow-table .row {
+        padding: 12px 1rem;
+    }
+
+    .payment-table {
+        padding: 1rem;
+    }
+
+    .store-report {
+        padding: 30px 1rem
+    }
+    .report-show {
+        padding: 1rem
+    }
+
+    .tax-report-hide {
+        padding: 0 1rem;
+    }
+
+    .filter-wrap {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .report-show {
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 15px;
+    }
+    .tax-report-table {
+        /* padding: 1.5rem 1rem; */
+    }
+
+    .giftcard-form {
+        padding: 1rem
+    }
+    .giftcard-form .form-container,
+    .register-input{
+        width: 80%;
+    }
+    .register-container,
+    .closure-table  {
+        padding: 2rem 1rem;
+    }
+    .forms-report {
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 20px;
+        align-items: center;
+        row-gap: 30px;
+    }
+    .payment-report-forms {
+        padding: 4rem 1rem;
+    }
+    .payment-report-table {
+        padding: 4rem 1rem;
+    }
+    .pw {
+        padding: 4rem 1rem;
+    }
+    .submit-report-tax {
+        margin: 35px 0;
+        padding: 0 1rem;
+    }
+
+    .row {
+        padding: 1.5rem 1rem;
+        font-size: .68rem;
+    }
+
+    .report-body .row, .report-head .row {
+        padding: 15px 1rem;
+    }
+
+    .tax-report-table .row {
+        padding: 1.5rem 1rem;
+    }
+    .report-show {
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 25px;
+    }
+    .closure-table .row,
+    .closure-body .row{
+        padding: 15px 1rem;
+    }
+    .users-container form {
+        padding: 3rem 1rem;
+    }
+    .table-wrap-token .row {
+        padding: 15px 1rem;
+    }
+    .section-two .section-two-box {
+        display: block;
+        padding: 2rem 1rem;
+    }
+    #catalog-main .content-box .section-three {
+        padding: 1rem 1rem;
+    }
+    .add-sections {
+        column-gap: 20px;
+        padding: 3rem 1rem;
+    }
+    .pay-table-head{
+        margin-left: 1rem;
+    }
+    .import-product-container {
+        padding: 4rem 1rem;
+    }
+
+    .row {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .cas-tab-head .cas-row {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .full-tabs {
+        padding: 1.5rem 1rem;
+    }
+
+    .inv-tabs {
+        /* padding: 3rem 1rem; */
+    }
+
+    .inventory-table-head .column-flex {
+        flex-direction: column;
+        row-gap: 10px;
+        align-items: flex-start;
+    }
+
+    .inventory-table-head-3 .row, .inventory-table-body-3 .row {
+        column-gap: 6px;
+        font-size: 0.8rem;
+    }
+
+    .inventory-table-head-3 .row,
+    .inventory-table-head-2 .row{
+        overflow-x: auto;
+    }
+
+}
+
+
+@media only screen and (max-width: 540px) {
+
+    .receive-cont-body .row,
+    .receive-cont-head .row{
+        font-size: .6rem;
+    }
+    .table-wrap .row h5 {
+        font-size: .6rem;
+    }
+    .table-wrap .row{
+        font-size: .5rem;
+    }
+    .inventorywrap h5 {
+        font-size: .7rem;
+    }
+    .price-books-table .row {
+        font-size: .5rem;
+    }
+    .app-sections .app p,
+    .apps-info p{
+        font-size: .65rem;
+    }
+    .giftcard-form .form-container,
+    .register-input{
+        width: 100%;
+    }
+
+    .giftcard-form .form-container{
+        width: 100%;
+    }
+    .user-table-container {
+        padding: 0rem;
+    }
+
+    .invent {
+        padding: 6rem 2rem;
+    }
+
+    .footer-inventory-wrap {
+        padding: 6rem 2rem;
+    }
+
+    .main-container .main-wrap {
+        padding: 6rem 2rem;
+    }
+
+    .welcome h1 {
+        font-size: .9rem;
+    }
+    .sell-content {
+        padding: 3rem 1rem;
+    }
+
+    .openclosecontent {
+        padding: 0 1rem;
+    }
+    .sell-wrap .box {
+        padding: .5rem;
+    }
+
+    .tab a {
+        margin-right: 10px;
+        padding-bottom: 12px;
+        display: inline-block;
+        padding: .5rem;
+    }
+
+    /* .input {
+        padding-left: 7px;
+    } */
+
+    .user-table-row {
+        align-items: center;
+        padding: 0.3rem 0;
+    }
+
+    .user-table-head {
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+
+    .user-table-head h3 {
+        font-size: 0.5rem;
+    }
+
+    .column h3 {
+        font-size: 0.6rem;
+    }
+
+    table.GeneratedTable {
+        font-size: 0.6rem;
+    }
+    .tab .center a {
+        margin-right: 15px;
+        padding-bottom: 9px;
+        padding: 0.5rem;
+        font-size: 0.6rem;
+    }
+    
+
+    .inventory-table-body .column,
+    .inventory-table-head .column{
+        font-size: 0.6rem;
+    }
+
+    .container-image {
+        display: none;
+    }
+
+    .container-btn a {
+        font-size: .6rem;
+    }
+    
+}
+
+
+@media only screen and (max-width: 425px) {
+    .brands-table .row {
+        font-size: .65rem;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 414px) {
+
+    .import-button a {
+        font-size: 0.5rem;
+    }
+
+    
+    body {
+        font-size: 11px;
+    }
+
+    .tab .center a {
+        font-size: 0.4rem;
+    }
+
+    .user-table-head,
+    .user-table-row{
+        display: grid;
+        grid-template-columns: repeat(3,1fr) repeat(3,2fr) repeat(2,1fr);
+        column-gap: 10px;
+        align-items: center;
+    }
+
+    .user-table-row p {
+        font-size: .5rem;
+    }
+    table.GeneratedTable {
+        font-size: 0.4rem;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 375px) {
+    .price-books-table .row {
+        font-size: .4rem;
+    }
+    .openclosecontent {
+        padding: 0 .5rem;
+    }
+
+    .flex-activate h5 {
+        font-size: 9px;
+    }
+
+    .status {
+        padding: 1rem;
+    }
+
+    .user-table-body p {
+        font-size: .45rem;
+    }
+
+    body {
+        font-size: 9px;
+    }
+    .container h3 {
+        font-size: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    button {
+        width: 100px;
+    }
+    .inventory-table-body .column,
+    .inventory-table-head .column{
+        font-size: 0.3rem;
+    }
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

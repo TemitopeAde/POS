@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.css" integrity="sha512-Q0DfJ+I5cbH4Wm20NlPZ/fENHil7k3ZgzI9b71LfQAB1IlM8Gt7aO7eOPX2QzYT+4fZaF6u1kSfZAHczl4r/9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/brands.css" integrity="sha512-ER4UboXz0D7MsL69jRMtQtUry+lwKW4FOhcsD7BUOawqT4Dgq1Tr3Y2i0zBFGm9c3jHNg0gWnPPqzju0CTeOMg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/brands.min.css" integrity="sha512-lCU0XyQA8yobR7ychVxEOU5rcxs0+aYh/9gNDLaybsgW9hdrtqczjfKVNIS5doY0Y5627/+3UVuoGv7p8QsUFw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/fontawesome.css" integrity="sha512-xzy4wQrSuGvX9CdboUReHWcpUEmVpfhP4cQsKW2zPk5Wbcm6RO5qrCQt0P4yKYxqUERpNZlJZP33HqcyvfwxMg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/fontawesome.min.css" integrity="sha512-Rcr1oG0XvqZI1yv1HIg9LgZVDEhf2AHjv+9AuD1JXWGLzlkoKDVvE925qySLcEywpMAYA/rkg296MkvqBF07Yw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/regular.css" integrity="sha512-2L65z4a+ppuAZ7mNmUs+Tl9EJmNRo6C1aXipbQVquYLuh/wVW6wMP/7z4fvCulOt72CzGy+c5iNm4LMQK2W3WA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/regular.min.css" integrity="sha512-lQP1BiSutAy+g9L+bDr1v9758SFLCJ1fK+6tXzu5M22G7/pigzb+01L31Cu1TUlWYr3lnQ4XQVmQfnpTZVW1Og==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/solid.css" integrity="sha512-dK9wFjXEVt5TVm/irRAXqmr+D02Kznpv3eSFK/NqWWCsBsXRsYTW/J/C1w9WYzOt9+N0JTqTPRdVtB3JdIszWQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/solid.min.css" integrity="sha512-WTx8wN/JUnDrE4DodmdFBCsy3fTGbjs8aYW9VDbW8Irldl56eMj8qUvI3qoZZs9o3o8qFxfGcyQocUY0LYZqzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/query.css">
+</head>
+<body class="bs">
+
+        <!-- HEADER START -->
+        <header class="shadow">
+            <div class="header shadow">
+                <div class="section-1">
+                    <a href="#">Temmy</a>
+                </div>
+    
+                <div class="section-2">
+                    <ul>
+                        <li>
+                            <a href="#">help</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="las la-bell"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">temitope adesiyan</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- TOGGLE MENU  -->
+            <div class="toggle">
+                <div class="bars">
+                    <i class="las la-bars"></i>
+                </div>
+            </div>
+            <!-- TOGGLE MENU ENDS  -->
+
+        </header>
+        <!-- HEADER ENDS -->
+
+
+        <!-- sidebar starts -->
+        <div class="sidebar shadow">
+            <div class="wrap">
+                <ul>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closebtn">
+                        x
+                    </a>
+
+                    <li>
+                        <a href="index.html">
+                            <span class="icon"><i class="fa-solid fa-house-user"></i></span>
+                            <span class="title"><h5><a href="">home</a></h5></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="sell.html">
+                            <span class="icon"><i class="fa-solid fa-credit-card"></i></span>
+                            <span class="title"><h5>sell</h5></span>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="sell.html">
+                            <span class="icon"><i class="fa-solid fa-book"></i></span>
+                            <span class="title"><h5>reporting</h5></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="catalog.html">
+                            <span class="icon"><i class="fa-solid fa-warehouse"></i></span>
+                            <span class="title"><h5>catalog</h5></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="stockcontrol.html">
+                            <span class="icon"><i class="fa-solid fa-boxes-stacked"></i></span>
+                            <span class="title"><h5>inventory</h5></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="customer.html">
+                            <span class="icon"><i class="fa-solid fa-people-arrows-left-right"></i></span>
+                            <span class="title"><h5>customers</h5></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="setup.html">
+                            <span class="icon"><i class="fa-solid fa-screwdriver-wrench"></i></span>
+                            <span class="title"><h5>setup</h5></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- sidebar ends -->
+
+
+        <!-- sidebar starts -->
+        <div class="new-sidebar shadow">
+            <div class="wrap">
+                <ul>
+                    <a href="javascript:void(0)" class="closebtn2" onclick="closebtn">
+                        x
+                    </a>
+
+                    <li>
+                        <a href="sell.html">
+                            <span class="title"><h5>Sell</h5></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="openclose.html">
+                            <span class="title"><h5>Open / Close</h5></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="saleshistory.html">
+                            <span class="title"><h5>Sales History</h5></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="cashmanagement.html">
+                            <span class="title"><h5>Cash Management</h5></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="status.html">
+                            <span class="title"><h5>Status</h5></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="settings.html">
+                            <span class="title"><h5>Settings</h5></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- sidebar ends -->
+
+
+        <div class="container">
+            <div class="main" id="catalog-main">
+
+                <div class="activate">
+                    <div class="flex-activate">
+                        <i class="las la-exclamation-circle"></i>
+                        <h5>You have 14 days left on your trial.</h5>
+                        <a href="#">Activate your account</a>
+                    </div>
+                </div>
+    
+                <h2 class="products" style="margin-top: 60px; color: var(--lightblue);">Promotions</h2>
+
+                <div class="content">
+                    <div class="content-box">
+                        <div class="promotion-wrap-grid">
+
+
+                            <!-- Tab links -->
+                            <div class="tab">
+                                <div class="center">
+                                    <a class="tablinks" onclick="openCity(event, 'current')" id="defaultOpen">ALL</a>
+                                    <a class="tablinks" onclick="openCity(event, 'past')">PROCESS RETURN</a>
+                                    <a class="tablinks" onclick="openCity(event, 'all')">CONTINUE SALE</a>
+                                </div>
+                            </div>
+                            
+                           
+
+                            <div class="section-one">
+                                <div class="add-hero">
+                                    <h3>View, edit and manage your sales all in one place.<a href="#" style="display: inline-block; margin-left: 10px">Need help?</a></h3>
+                                    <!-- <div class="import-button">
+                                        <a href="#" class="button-2 shadow">Add Promotions</a>
+                                    </div> -->
+                                </div>
+                            </div>
+
+                            
+                             <!-- Tab content -->
+                             <div id="current" class="tabcontent">
+                                <div class="sales-form sales-history-cont">
+                                    <form>
+                                        <div class="first-form">
+                                            <div class="status item">
+                                                <label for="status">Status</label>
+                                                <select class="input" id="status">
+                                                    <option value="">All open sales</option>
+                                                    <option value="">LayBy</option>
+                                                    <option value="">OnAccount</option>
+                                                    <option value="">Parked</option>
+                                                </select>
+                                            </div>
+                                            <div class="customer item">
+                                                <label for="customer">Customer</label>
+                                                <input id="customer" type="text" class="input" placeholder="Search for customers">
+                                            </div>
+                                            <div class="receipt item">
+                                                <label for="receipt">Receipt or note</label>
+                                                <input id="receipt" type="text" class="input" placeholder="Search receipt number or note">
+                                            </div>
+                                        </div>
+                                        
+
+                                        <div class="hidden-form-3">
+                                            <div class="hidden-form">
+                                                <div class="outlet item">
+                                                    <label for="outlet">Outlet</label>
+                                                    <select class="input" id="outlet">
+                                                        <option value="">All</option>
+                                                        <option value="">Main Outlet</option>
+                                        
+                                                    </select>
+                                                </div>
+                                                <div class="user item">
+                                                    <label for="user">User</label>
+                                                    <select class="input" id="user">
+                                                        <option value="">All</option>
+                                                    </select>
+                                                </div>
+    
+                                                <div class="datepicker item">
+                                                    <label for="date">Date</label>
+                                                    <input type="text" name="datefilter" value="" class="input" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+
+                                        <div class="sales-button-container">
+                                            <button type="submit" class="button">Search</button>
+                                            <button class="toggle-button-3">
+                                                More Filters
+                                            </button>
+                                            <span id="sales-button-container-3"></span>
+                                        </div>
+                                       
+                                    </form>
+                                </div>
+                            </div>
+                            
+                            <div id="past" class="tabcontent">
+                                <div class="sales-form sales-history-cont">
+                                    <form>
+                                        <div class="first-form">
+                                            <div class="status item">
+                                                <label for="status">Status</label>
+                                                <select class="input" id="status">
+                                                    <option value="">All open sales</option>
+                                                    <option value="">LayBy</option>
+                                                    <option value="">OnAccount</option>
+                                                    <option value="">Parked</option>
+                                                </select>
+                                            </div>
+                                            <div class="customer item">
+                                                <label for="customer">Customer</label>
+                                                <input id="customer" type="text" class="input" placeholder="Search for customers">
+                                            </div>
+                                            <div class="receipt item">
+                                                <label for="receipt">Receipt or note</label>
+                                                <input id="receipt" type="text" class="input" placeholder="Search receipt number or note">
+                                            </div>
+                                        </div>
+                                        
+
+                                        <div class="sales-hidden-2">
+                                            <div class="hidden-form">
+                                                <div class="outlet item">
+                                                    <label for="outlet">Outlet</label>
+                                                    <select class="input" id="outlet">
+                                                        <option value="">All</option>
+                                                        <option value="">Main Outlet</option>
+                                        
+                                                    </select>
+                                                </div>
+                                                <div class="user item">
+                                                    <label for="user">User</label>
+                                                    <select class="input" id="user">
+                                                        <option value="">All</option>
+                                                    </select>
+                                                </div>
+    
+                                                <div class="datepicker item">
+                                                    <label for="date">Date</label>
+                                                    <input type="text" name="datefilter" value="" class="input" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+
+                                        <div class="sales-button-container">
+                                            <button type="submit" class="button">Search</button>
+                                            <button class="toggle-button-2">
+                                                More Filters
+                                            </button>
+                                            <span id="sales-button-container-2"></span>
+                                        </div>
+                                        
+                                    </form>
+                                </div>
+                            </div>
+                            
+                            <div id="all" class="tabcontent">
+                                <div class="sales-form sales-history-cont">
+                                    <form>
+                                        <div class="first-form">
+                                            <div class="status item">
+                                                <label for="status">Status</label>
+                                                <select class="input" id="status">
+                                                    <option value="">All open sales</option>
+                                                    <option value="">LayBy</option>
+                                                    <option value="">OnAccount</option>
+                                                    <option value="">Parked</option>
+                                                </select>
+                                            </div>
+                                            <div class="customer item">
+                                                <label for="customer">Customer</label>
+                                                <input id="customer" type="text" class="input" placeholder="Search for customers">
+                                            </div>
+                                            <div class="receipt item">
+                                                <label for="receipt">Receipt or note</label>
+                                                <input id="receipt" type="text" class="input" placeholder="Search receipt number or note">
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="sales-hidden">
+                                            <div class="hidden-form">
+                                                <div class="outlet item">
+                                                    <label for="outlet">Outlet</label>
+                                                    <select class="input" id="outlet">
+                                                        <option value="">All</option>
+                                                        <option value="">Main Outlet</option>
+                                               </select>
+                                                </div>
+                                                <div class="user item">
+                                                    <label for="user">User</label>
+                                                    <select class="input" id="user">
+                                                        <option value="">All</option>
+                                                    </select>
+                                                </div>
+    
+                                                <div class="datepicker item">
+                                                    <label for="date">Date Range</label>
+                                                    <input type="text" name="datefilter" value="" class="input"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+
+
+                                        <div class="sales-button-container">
+                                            <button type="submit" class="button">Search</button>
+                                            <button class="toggle-button">
+                                                More Filters
+                                            </button>
+                                            <span id="sales-button-container"></span>
+                                        </div>
+                                        
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                
+
+                
+            </div>
+        </div>
+
+    <script type="text/javascript">
+        var hForm = document.querySelector('.hidden-form-3');
+        var hBtn = document.querySelector('.toggle-button-3');
+
+        var hForm2 = document.querySelector('.sales-hidden-2');
+        var hBtn2 = document.querySelector('.toggle-button-2');
+
+        var hForm3 = document.querySelector('.sales-hidden');
+        var hBtn3 = document.querySelector('.toggle-button');
+
+        hBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            hForm.classList.toggle('active');
+            if (hBtn.innerHTML === 'More Filters') {
+                console.log('yes')
+                hBtn.innerHTML = 'Less Filter';
+            }   else if (hBtn.innerHTML === 'Less Filter') {
+                console.log('')
+                hBtn.innerHTML = 'More Filters';
+            }
+        });
+        // console.log(hBtn2)
+        hBtn2.addEventListener('click', (e) => {
+            e.preventDefault();
+            console.log(hBtn2);
+            hForm2.classList.toggle('active');
+            if (hBtn2.innerHTML === 'More Filters') {
+                hBtn2.innerHTML = 'Less Filter';
+            } else if(hBtn2.innerHTML === 'Less Filter') {
+                hBtn2.innerHTML = 'More Filter';
+            }
+        });
+
+        hBtn3.addEventListener('click', (e) => {
+            e.preventDefault();
+            console.log(hBtn2);
+            hForm3.classList.toggle('active');
+            if (hBtn3.innerHTML === 'More Filters') {
+                hBtn3.innerHTML = 'Less Filter';
+            } else if(hBtn3.innerHTML === 'Less Filter') {
+                hBtn3.innerHTML = 'More Filter';
+            }
+        })
+
+    </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+        
+          $('input[name="datefilter"]').daterangepicker({
+              autoUpdateInput: false,
+              locale: {
+                  cancelLabel: 'Clear'
+              }
+          });
+        
+          $('input[name="datefilter"]').on('apply.daterangepicker', function(ev, picker) {
+              $(this).val(picker.startDate.format('MM/DD/YYYY') + ' - ' + picker.endDate.format('MM/DD/YYYY'));
+          });
+        
+          $('input[name="datefilter"]').on('cancel.daterangepicker', function(ev, picker) {
+              $(this).val('');
+          });
+        
+        });
+    </script>
+    <script src="js/main.js"></script>
+    <script>
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+</body>
+</html>

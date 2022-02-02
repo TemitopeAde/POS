@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.css" integrity="sha512-Q0DfJ+I5cbH4Wm20NlPZ/fENHil7k3ZgzI9b71LfQAB1IlM8Gt7aO7eOPX2QzYT+4fZaF6u1kSfZAHczl4r/9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/brands.css" integrity="sha512-ER4UboXz0D7MsL69jRMtQtUry+lwKW4FOhcsD7BUOawqT4Dgq1Tr3Y2i0zBFGm9c3jHNg0gWnPPqzju0CTeOMg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/brands.min.css" integrity="sha512-lCU0XyQA8yobR7ychVxEOU5rcxs0+aYh/9gNDLaybsgW9hdrtqczjfKVNIS5doY0Y5627/+3UVuoGv7p8QsUFw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/fontawesome.css" integrity="sha512-xzy4wQrSuGvX9CdboUReHWcpUEmVpfhP4cQsKW2zPk5Wbcm6RO5qrCQt0P4yKYxqUERpNZlJZP33HqcyvfwxMg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/fontawesome.min.css" integrity="sha512-Rcr1oG0XvqZI1yv1HIg9LgZVDEhf2AHjv+9AuD1JXWGLzlkoKDVvE925qySLcEywpMAYA/rkg296MkvqBF07Yw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/regular.css" integrity="sha512-2L65z4a+ppuAZ7mNmUs+Tl9EJmNRo6C1aXipbQVquYLuh/wVW6wMP/7z4fvCulOt72CzGy+c5iNm4LMQK2W3WA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/regular.min.css" integrity="sha512-lQP1BiSutAy+g9L+bDr1v9758SFLCJ1fK+6tXzu5M22G7/pigzb+01L31Cu1TUlWYr3lnQ4XQVmQfnpTZVW1Og==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/solid.css" integrity="sha512-dK9wFjXEVt5TVm/irRAXqmr+D02Kznpv3eSFK/NqWWCsBsXRsYTW/J/C1w9WYzOt9+N0JTqTPRdVtB3JdIszWQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/solid.min.css" integrity="sha512-WTx8wN/JUnDrE4DodmdFBCsy3fTGbjs8aYW9VDbW8Irldl56eMj8qUvI3qoZZs9o3o8qFxfGcyQocUY0LYZqzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/query.css">
+</head>
+<body>
+
+        <!-- HEADER START -->
+        <header class="shadow">
+            <div class="header shadow">
+                <div class="section-1">
+                    <a href="#">Temmy</a>
+                </div>
+    
+                <div class="section-2">
+                    <ul>
+                        <li>
+                            <a href="#">help</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="las la-bell"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">temitope adesiyan</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- TOGGLE MENU  -->
+            <div class="toggle">
+                <div class="bars">
+                    <i class="las la-bars"></i>
+                </div>
+            </div>
+            <!-- TOGGLE MENU ENDS  -->
+
+        </header>
+        <!-- HEADER ENDS -->
+
+
+        <!-- sidebar starts -->
+        <div class="sidebar shadow">
+            <div class="wrap">
+                <ul>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closebtn">
+                        x
+                    </a>
+
+                    <li>
+                        <a href="index.html">
+                            <span class="icon"><i class="fa-solid fa-house-user"></i></span>
+                            <span class="title"><h5><a href="">home</a></h5></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="sell.html">
+                            <span class="icon"><i class="fa-solid fa-credit-card"></i></span>
+                            <span class="title"><h5>sell</h5></span>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="sell.html">
+                            <span class="icon"><i class="fa-solid fa-book"></i></span>
+                            <span class="title"><h5>reporting</h5></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="catalog.html">
+                            <span class="icon"><i class="fa-solid fa-warehouse"></i></span>
+                            <span class="title"><h5>catalog</h5></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="stockcontrol.html">
+                            <span class="icon"><i class="fa-solid fa-boxes-stacked"></i></span>
+                            <span class="title"><h5>inventory</h5></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="customer.html">
+                            <span class="icon"><i class="fa-solid fa-people-arrows-left-right"></i></span>
+                            <span class="title"><h5>customers</h5></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="setup.html">
+                            <span class="icon"><i class="fa-solid fa-screwdriver-wrench"></i></span>
+                            <span class="title"><h5>setup</h5></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- sidebar ends -->
+
+
+        <!-- sidebar starts -->
+        <div class="new-sidebar shadow">
+            <div class="wrap">
+                <ul>
+                    <a href="javascript:void(0)" class="closebtn2" onclick="closebtn">
+                        x
+                    </a>
+
+                    <li>
+                        <a href="retaildashboard.html">
+                            <span class="title"><h5>Retail Dashboard</h5></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="salesreports.html">
+                            <span class="title"><h5>Sales Reports</h5></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="inventoryreport.html">
+                            <span class="title"><h5>Inventory Reports</h5></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="paymentreports.html">
+                            <span class="title"><h5>Payment Reports</h5></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="registerclosures.html">
+                            <span class="title"><h5>Register Closures</h5></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="giftcardreport.html">
+                            <span class="title"><h5>Gift Card Reports</h5></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="storecreditreport.html">
+                            <span class="title"><h5>Store Credit Reports</h5></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="taxreport.html">
+                            <span class="title"><h5>Tax Reports</h5></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- sidebar ends -->
+
+
+        <div class="container">
+            <div class="main" id="catalog-main">
+
+                <div class="activate">
+                    <div class="flex-activate">
+                        <i class="las la-exclamation-circle"></i>
+                        <h5>You have 14 days left on your trial.</h5>
+                        <a href="#">Activate your account</a>
+                    </div>
+                </div>
+    
+                <h2 class="products" style="margin-top: 60px; color: var(--blue)">Promotions</h2>
+
+                <div class="content">
+                    <div class="content-box">
+                        
+
+
+                            <!-- Tab links -->
+                            <div class="tab">
+                                <div class="center">
+                                    <a class="tablinks" onclick="openCity(event, 'current')" id="defaultOpen">Summary</a>
+                                    <a class="tablinks" onclick="openCity(event, 'past')">Replenishment</a>
+                                    <a class="tablinks" onclick="openCity(event, 'all')">Performance</a>
+                                </div>
+                            </div>
+                            
+
+                            <div class="inv-tabs">
+                             <!-- Tab content -->
+                                <div id="current" class="tabcontent bs">
+                                    <div>
+                                        <div class="add-hero">
+                                            <h3>Get an overview of inventory and its performance over time.<a href="#" style="display: inline-block; margin-left: 10px">Need help?</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="sales-form">
+                                        <form>
+                                            <div class="first-form">
+                                                <div class="status item">
+                                                    <label for="status2" style="color: var(--blue);">Report Type</label>
+                                                    <select class="input" id="status2">
+                                                        <option value="">Product</option>
+                                                        <option value="">SKU Name</option>
+                                                        <option value="">Brand</option>
+                                                        <option value="">Outlet</option>
+                                                        <option value="">Supplier</option>
+                                                        <option value="">Product Type</option>
+                                                    </select>
+                                                </div>
+                                                <div class="customer item">
+                                                    <label for="measure" style="color: var(--blue);">Measure</label>
+                                                    <select class="input" id="measure">
+                                                        <option value="">On-hand Inventory</option>
+                                                        <option value="">Low Inventory</option>
+                                                        <option value="">All Inventory</option>
+                                                    </select>
+                                                </div>
+                                                <div class="datepicker item">
+                                                    <label for="date" style="color: var(--blue);">Date</label>
+                                                    <input type="text" name="datefilter" value="" class="input" />
+                                                </div>
+                                            </div>
+                                            
+                                            
+                                            <div class="payment-report-hide">
+                                                <div class="tax-report-hide-box">
+                                                    <div class="filter">
+                                                        <label for="" style="color: var(--blue);">Filter report by an outlet, payment type, register or other keyword</label>
+                                                        <div class="filter-wrap">
+                                                            <select id="" class="input">
+                                                                <option value="">Include</option>
+                                                                <option value="">Exclude</option>
+                                                            </select>
+                                                            <div class="filter-form">
+                                                                <input type="text" class="input" placeholder="Add a Filter">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="report-toggle">
+                                                    <label class="switch">
+                                                        <input type="checkbox" id="togBtn">
+                                                        <div class="slider round"></div>
+                                                    </label>
+                                                    <span>
+                                                        <h5 style="font-weight: 400;">Show inactive inventory</h5>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                                                                    
+                                            <div id="button-toggles">
+                                                <button type="submit" class="button">Search</button>
+                                                <div class="inv-btn-hide">
+                                                    <button class="toggle-button-1" style="color: var(--blue);">
+                                                        More Filters
+                                                    </button>
+                                                </div>
+                                                <span id="button-toggle"></span>
+                                            </div>
+                                        </form>
+                                    </div>
+
+
+                                    <div class="inventory-table bs">
+
+                                        <div class="inventory-buttons">
+                                            <div class="button-1" style="position: relative;">
+                                                <button type="button" class="danger-button" id="format">Format Result</button>
+                                                <div class="format-container actives">
+                                                    <form>
+                                                        <h6>Arrange Rows</h6>
+                                                        <input type="radio" name="format" id="formatOne">
+                                                        <label for="formatOne">Show Totals Only</label>
+                                                        <br>
+                                                        <input type="radio" name="format" id="formatTwo">
+                                                        <label for="formatTwo">By Outlet</label>
+                                                        <button type="submit" style="cursor: pointer;">Apply</button>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="ibutton2">
+                                                <button type="button" class="cancel-button">Export Report</button>
+                                            </div>
+                                        </div>
+
+                                        <div class="inventory-table-head">
+                                            <div class="row" style="color: var(--crimson);">
+                                                <div class="column column-flex" style="position: relative;">
+                                                    <div>Product</div>
+                                                    <div>
+                                                        <a href="#">
+                                                            <i class="fas fa-plus-circle"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="plus-content" style="display: none;">
+                                                        <div class="check-container">
+                                                            <input type="checkbox">
+                                                            <div>All</div>
+                                                        </div>
+                                                        <div class="check-container" id="checkCont">
+                                                            <input type="checkbox" id="checkOne">
+                                                            <div>Supplier code</div>
+                                                        </div>
+                                                        <div class="check-container" id="checkContTwo">
+                                                            <input type="checkbox" id="checkTwo">
+                                                            <div>Brand</div>
+                                                        </div>
+                                                        <div class="check-container" id="checkContThree">
+                                                            <input type="checkbox" id="checkThree">
+                                                            <div>Tag</div>
+                                                        </div>
+                                                        <div class="check-container" id="checkContFour">
+                                                            <input type="checkbox" id="checkOne">
+                                                            <div>Supplier code</div>
+                                                        </div>
+                                                        <div class="check-container" id="checkContFive">
+                                                            <input type="checkbox" id="checkOne">
+                                                            <div>Supplier</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column">Closing Inventory</div>
+                                                <div class="column">Avg Cost</div>
+                                                <div class="column">Inventory Cost</div>
+                                                <div class="column column-flex">
+                                                    <div>Retail Value (Excl Tax)</div>
+                                                    <div>
+                                                        <a href="#">
+                                                            <i class="fas fa-plus-circle"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="inventory-table-body">
+                                            <div class="row">
+                                                <div class="column">Test</div>
+                                                <div class="column">4000</div>
+                                                <div class="column">400</div>
+                                                <div class="column">200</div>
+                                                <div class="column">500</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="column">Test</div>
+                                                <div class="column">4000</div>
+                                                <div class="column">400</div>
+                                                <div class="column">200</div>
+                                                <div class="column">500</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="column">Test</div>
+                                                <div class="column">4000</div>
+                                                <div class="column">400</div>
+                                                <div class="column">200</div>
+                                                <div class="column">500</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="column">Test</div>
+                                                <div class="column">4000</div>
+                                                <div class="column">400</div>
+                                                <div class="column">200</div>
+                                                <div class="column">500</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div id="past" class="tabcontent bw">
+                                    <div>
+                                        <div class="add-hero">
+                                            <h3>A starting point to help you decide what to order and how much of it.<a href="#" style="display: inline-block; margin-left: 10px">Need help?</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="sales-form">
+                                        <form>
+                                            <div class="first-form">
+                                                <div class="status item">
+                                                    <label for="status2" style="color: var(--blue);">Report Type</label>
+                                                    <select class="input" id="status2">
+                                                        <option value="">Product</option>
+                                                        <option value="">SKU Name</option>
+                                                        <option value="">Brand</option>
+                                                        <option value="">Outlet</option>
+                                                        <option value="">Supplier</option>
+                                                        <option value="">Product Type</option>
+                                                    </select>
+                                                </div>
+                                                <div class="customer item">
+                                                    <label for="measure" style="color: var(--blue);">Measure</label>
+                                                    <select class="input" id="measure">
+                                                        <option value="">On-hand Inventory</option>
+                                                        <option value="">Low Inventory</option>
+                                                        <option value="">All Inventory</option>
+                                                    </select>
+                                                </div>
+                                                <div class="datepicker item">
+                                                    <label for="date" style="color: var(--blue);">Date</label>
+                                                    <input type="text" name="datefilter" value="" class="input" />
+                                                </div>
+                                            </div>
+                                            
+                                            
+                                            <div class="payment-report-hide-2 active">
+                                                <div class="tax-report-hide-box">
+                                                    <div class="filter">
+                                                        <label for="" style="color: var(--blue);">Filter report by an outlet, payment type, register or other keyword</label>
+                                                        <div class="filter-wrap">
+                                                            <select id="" class="input">
+                                                                <option value="">Include</option>
+                                                                <option value="">Exclude</option>
+                                                            </select>
+                                                            <div class="filter-form">
+                                                                <input type="text" class="input" placeholder="Add a Filter">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="report-toggle">
+                                                    <label class="switch">
+                                                        <input type="checkbox" id="togBtn">
+                                                        <div class="slider round"></div>
+                                                    </label>
+                                                    <span>
+                                                        <h5 style="font-weight: 400;">Show inactive inventory</h5>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                                                                    
+                                            <div id="button-toggles-2">
+                                                <button type="submit" class="button">Search</button>
+                                                <button class="toggle-button-1-2 less" style="color: var(--blue);">
+                                                    More Filters
+                                                </button>
+                                                <span id="button-toggle-2"></span>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="inventory-table bs">
+
+                                        <div class="inventory-buttons">
+                                            <div class="button-1" style="position: relative;">
+                                                <button type="button" class="danger-button" id="formatTwos">Format Result</button>
+                                                <div class="format-containerTwo actives">
+                                                    <form>
+                                                        <h6>Arrange Rows</h6>
+                                                        <input type="radio" name="format" id="formatOne">
+                                                        <label for="formatOne">Show Totals Only</label>
+                                                        <br>
+                                                        <input type="radio" name="format" id="formatTwo">
+                                                        <label for="formatTwo">By Outlet</label>
+
+                                                        <button type="submit" style="cursor: pointer;">Apply</button>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="ibutton2">
+                                                <button type="button" class="cancel-button">Export Report</button>
+                                            </div>
+                                        </div>
+
+                                        <div class="inventory-table-head-2">
+                                            <div class="row" style="color: var(--crimson);">
+                                                <div class="column column-flex">
+                                                    <div>SKU Name</div>
+                                                    <div>
+                                                        <a href="#">
+                                                            <i class="fas fa-plus-circle"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="column">Closing Inventory</div>
+                                                <div class="column">Items Sold</div>
+                                                <div class="column">Items Sold per Day</div>
+                                                <div class="column">Days Cover</div>
+                                                <div class="column column-flex">
+                                                    <div>Avg. Cost</div>
+                                                    <div>
+                                                        <a href="#">
+                                                            <i class="fas fa-plus-circle"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="inventory-table-body-2">
+                                            <div class="row">
+                                                <div class="column">Test</div>
+                                                <div class="column">4000</div>
+                                                <div class="column">400</div>
+                                                <div class="column">200</div>
+                                                <div class="column">500</div>
+                                                <div class="column">500</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="column">Test</div>
+                                                <div class="column">4000</div>
+                                                <div class="column">400</div>
+                                                <div class="column">200</div>
+                                                <div class="column">500</div>
+                                                <div class="column">500</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="column">Test</div>
+                                                <div class="column">4000</div>
+                                                <div class="column">400</div>
+                                                <div class="column">200</div>
+                                                <div class="column">500</div>
+                                                <div class="column">500</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="column">Test</div>
+                                                <div class="column">4000</div>
+                                                <div class="column">400</div>
+                                                <div class="column">200</div>
+                                                <div class="column">500</div>
+                                                <div class="column">500</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div id="all" class="tabcontent bw">
+                                    <div>
+                                        <div class="add-hero">
+                                            <h3>Track product performance and decide what to order<a href="#" style="display: inline-block; margin-left: 10px">Need help?</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="sales-form">
+                                        <form>
+                                            <div class="first-form">
+                                                <div class="status item">
+                                                    <label for="status2" style="color: var(--blue);">Report Type</label>
+                                                    <select class="input" id="status2">
+                                                        <option value="">Product</option>
+                                                        <option value="">SKU Name</option>
+                                                        <option value="">Brand</option>
+                                                        <option value="">Outlet</option>
+                                                        <option value="">Supplier</option>
+                                                        <option value="">Product Type</option>
+                                                    </select>
+                                                </div>
+                                                <div class="customer item">
+                                                    <label for="measure" style="color: var(--blue);">Measure</label>
+                                                    <select class="input" id="measure">
+                                                        <option value="">On-hand Inventory</option>
+                                                        <option value="">Low Inventory</option>
+                                                        <option value="">All Inventory</option>
+                                                    </select>
+                                                </div>
+                                                <div class="datepicker item">
+                                                    <label for="date" style="color: var(--blue);">Date</label>
+                                                    <input type="text" name="datefilter" value="" class="input" />
+                                                </div>
+                                            </div>
+                                            
+                                            
+                                            <div class="payment-report-hide-3 active">
+                                                <div class="tax-report-hide-box">
+                                                    <div class="filter">
+                                                        <label for="" style="color: var(--blue);">Filter report by an outlet, payment type, register or other keyword</label>
+                                                        <div class="filter-wrap">
+                                                            <select id="" class="input">
+                                                                <option value="">Include</option>
+                                                                <option value="">Exclude</option>
+                                                            </select>
+                                                            <div class="filter-form">
+                                                                <input type="text" class="input" placeholder="Add a Filter">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="report-toggle">
+                                                    <label class="switch">
+                                                        <input type="checkbox" id="togBtn">
+                                                        <div class="slider round"></div>
+                                                    </label>
+                                                    <span>
+                                                        <h5 style="font-weight: 400;">Show inactive inventory</h5>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                                                                    
+                                            <div id="button-toggles-3">
+                                                <button type="submit" class="button">Search</button>
+                                                <button class="toggle-button-1-3 less" style="color: var(--blue);">
+                                                    More Filters
+                                                </button>
+                                                <span id="button-toggle-3"></span>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="inventory-table bs">
+
+                                        <div class="inventory-buttons">
+                                            <div class="button-1" style="position: relative;">
+                                                <button type="button" class="danger-button" id="formatThree">Format Result</button>
+                                                <div class="format-containerThree actives">
+                                                    <form>
+                                                        <h6>Arrange Rows</h6>
+                                                        <input type="radio" name="format" id="formatOne">
+                                                        <label for="formatOne">Show Totals Only</label>
+                                                        <br>
+                                                        <input type="radio" name="format" id="formatTwo">
+                                                        <label for="formatTwo">By Outlet</label>
+
+                                                        <button type="submit" style="cursor: pointer;">Apply</button>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="ibutton2">
+                                                <button type="button" class="cancel-button">Export Report</button>
+                                            </div>
+                                        </div>
+
+                                        <div class="inventory-table-head-3">
+                                            <div class="row" style="color: var(--crimson);">
+                                                <div class="column column-flex">
+                                                    <div>Product</div>
+                                                    <div>
+                                                        <a href="#">
+                                                            <i class="fas fa-plus-circle"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="column">Closing Inventory</div>
+                                                <div class="column">Item Sold</div>
+                                                <div class="column">Items Sold per Day</div>
+                                                <div class="column">Sell-through Rate</div>
+                                                <div class="column">Days Cover</div>
+                                                <div class="column">Revenue</div>
+                                                <div class="column">Gross Profit</div>
+                                                <div class="column">Margin</div>
+                                                <div class="column">Inventory</div>
+                                                <div class="column column-flex">
+                                                    <div>Retail Value (Excl Tax)</div>
+                                                    <div>
+                                                        <a href="#">
+                                                            <i class="fas fa-plus-circle"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="inventory-table-body-3">
+                                            <div class="row">
+                                                <div class="column">Test</div>
+                                                <div class="column">4000</div>
+                                                <div class="column">400</div>
+                                                <div class="column">200</div>
+                                                <div class="column">500</div>
+                                                <div class="column">4000</div>
+                                                <div class="column">400</div>
+                                                <div class="column">200</div>
+                                                <div class="column">500</div>
+                                                <div class="column">4000</div>
+                                                <div class="column">400</div>
+                                                
+                                            </div>
+                                            <div class="row">
+                                                <div class="column">Test</div>
+                                                <div class="column">4000</div>
+                                                <div class="column">400</div>
+                                                <div class="column">200</div>
+                                                <div class="column">500</div>
+                                                <div class="column">4000</div>
+                                                <div class="column">400</div>
+                                                <div class="column">200</div>
+                                                <div class="column">500</div>
+                                                <div class="column">4000</div>
+                                                <div class="column">400</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="column">Test</div>
+                                                <div class="column">4000</div>
+                                                <div class="column">400</div>
+                                                <div class="column">200</div>
+                                                <div class="column">500</div>
+                                                <div class="column">4000</div>
+                                                <div class="column">400</div>
+                                                <div class="column">200</div>
+                                                <div class="column">500</div>
+                                                <div class="column">4000</div>
+                                                <div class="column">400</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="column">Test</div>
+                                                <div class="column">4000</div>
+                                                <div class="column">400</div>
+                                                <div class="column">200</div>
+                                                <div class="column">500</div>
+                                                <div class="column">4000</div>
+                                                <div class="column">400</div>
+                                                <div class="column">200</div>
+                                                <div class="column">500</div>
+                                                <div class="column">4000</div>
+                                                <div class="column">400</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+    
+    
+                
+
+                
+            </div>
+        </div>
+    
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+        
+          $('input[name="datefilter"]').daterangepicker({
+              autoUpdateInput: false,
+              locale: {
+                  cancelLabel: 'Clear'
+              }
+          });
+        
+          $('input[name="datefilter"]').on('apply.daterangepicker', function(ev, picker) {
+              $(this).val(picker.startDate.format('MM/DD/YYYY') + ' - ' + picker.endDate.format('MM/DD/YYYY'));
+          });
+        
+          $('input[name="datefilter"]').on('cancel.daterangepicker', function(ev, picker) {
+              $(this).val('');
+          });
+        
+        });
+    </script>
+
+    <script>
+        var payDiv = document.querySelector('.payment-report-hide');
+        var payBtn = document.querySelector('.toggle-button-1');
+        var btnPay = document.querySelector('.inv-btn-hide');
+        var toggle = document.querySelector('#button-toggle');
+        
+        var form2 = document.querySelector('.payment-report-hide-2');
+        var btn2 = document.querySelector('.toggle-button-1-2');
+        var toggle2 = document.querySelector('#button-toggle-2');
+
+        var form3 = document.querySelector('.payment-report-hide-3');
+        var btn3 = document.querySelector('.toggle-button-1-3');
+        var toggle3 = document.querySelector('#button-toggle-3');
+        
+        payBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            payDiv.classList.add('active');
+            btnPay.classList.add('hide');
+            var newBut = document.createElement("button");
+            newBut.innerHTML = "Less Filter";
+            newBut.classList.add("newbutton");
+            toggle.appendChild(newBut);
+        });
+
+        
+
+
+
+        
+        
+
+        
+
+        
+
+
+        // toggle.addEventListener('click', function(e) {
+        //     e.preventDefault();
+        //     form.classList.add('active');
+        //     toggle.classList.add('active');
+        //     btn.classList.remove('active');
+        // });
+       
+
+        // btn2.addEventListener('click', function(e) {
+        //     e.preventDefault();
+        //     form2.classList.remove('active');
+        //     btn2.classList.add('active');
+        //     var newBut2 = document.createElement("button");
+        //     newBut2.innerHTML = "Less Filter";
+        //     newBut2.classList.add("newbutton");
+        //     toggle2.appendChild(newBut2);
+        // });
+
+        // toggle2.addEventListener('click', function(e) {
+        //     e.preventDefault();
+        //     form2.classList.add('active');
+        //     toggle2.classList.add('active');
+        //     btn2.classList.remove('active');
+        // });
+        
+
+        // btn3.addEventListener('click', function(e) {
+        //     e.preventDefault();
+        //     form3.classList.remove('active');
+        //     btn3.classList.add('active');
+        //     var newBut3 = document.createElement("button");
+        //     newBut3.innerHTML = "Less Filter";
+        //     newBut3.classList.add("newbutton");
+        //     toggle3.appendChild(newBut3);
+        // });
+
+        // toggle3.addEventListener('click', function(e) {
+        //     e.preventDefault();
+        //     form3.classList.add('active');
+        //     toggle3.classList.add('active');
+        //     btn3.classList.remove('active');
+        // });
+    </script>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+    <script type="text/javascript">
+        var cont = document.querySelector('.format-container');
+        var btn = document.querySelector('#format');
+
+        var contTwo = document.querySelector('.format-containerTwo');
+        var btnTwo = document.querySelector('#formatTwos');
+
+        var contThree = document.querySelector('.format-containerThree');
+        var btnThree = document.querySelector('#formatThree');
+
+        // console.log(contThree,btnThree)
+
+        btn.addEventListener('click', function() {
+            cont.classList.toggle('actives');
+        });
+
+        btnTwo.addEventListener('click', function() {
+            contTwo.classList.toggle('actives');
+        });
+
+        btnThree.addEventListener('click', function() {
+            console.log('success IS MINE')
+            contThree.classList.toggle('actives');
+        });
+    </script>
+    <script type="text/javascript">
+        var cheCont = document.querySelector('#checkCont');
+        var cheBox = document.querySelector('#checkOne');
+
+        // cheCont.addEventListener('click', function () {
+        //     cheBox.checked = true;
+        // })
+
+        // document.querySelectorAll('input[type="checkbox"]').forEach(e => e.checked ^= 1);
+    </script>
+</body>
+</html>

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.css" integrity="sha512-Q0DfJ+I5cbH4Wm20NlPZ/fENHil7k3ZgzI9b71LfQAB1IlM8Gt7aO7eOPX2QzYT+4fZaF6u1kSfZAHczl4r/9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/brands.css" integrity="sha512-ER4UboXz0D7MsL69jRMtQtUry+lwKW4FOhcsD7BUOawqT4Dgq1Tr3Y2i0zBFGm9c3jHNg0gWnPPqzju0CTeOMg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/brands.min.css" integrity="sha512-lCU0XyQA8yobR7ychVxEOU5rcxs0+aYh/9gNDLaybsgW9hdrtqczjfKVNIS5doY0Y5627/+3UVuoGv7p8QsUFw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/fontawesome.css" integrity="sha512-xzy4wQrSuGvX9CdboUReHWcpUEmVpfhP4cQsKW2zPk5Wbcm6RO5qrCQt0P4yKYxqUERpNZlJZP33HqcyvfwxMg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/fontawesome.min.css" integrity="sha512-Rcr1oG0XvqZI1yv1HIg9LgZVDEhf2AHjv+9AuD1JXWGLzlkoKDVvE925qySLcEywpMAYA/rkg296MkvqBF07Yw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/regular.css" integrity="sha512-2L65z4a+ppuAZ7mNmUs+Tl9EJmNRo6C1aXipbQVquYLuh/wVW6wMP/7z4fvCulOt72CzGy+c5iNm4LMQK2W3WA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/regular.min.css" integrity="sha512-lQP1BiSutAy+g9L+bDr1v9758SFLCJ1fK+6tXzu5M22G7/pigzb+01L31Cu1TUlWYr3lnQ4XQVmQfnpTZVW1Og==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/solid.css" integrity="sha512-dK9wFjXEVt5TVm/irRAXqmr+D02Kznpv3eSFK/NqWWCsBsXRsYTW/J/C1w9WYzOt9+N0JTqTPRdVtB3JdIszWQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/solid.min.css" integrity="sha512-WTx8wN/JUnDrE4DodmdFBCsy3fTGbjs8aYW9VDbW8Irldl56eMj8qUvI3qoZZs9o3o8qFxfGcyQocUY0LYZqzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/queries.css">
+</head>
+<body class="step-form flex-center">
+    <div class="add-product-type-container" id="add-new-container">    
+        <div class="remove-cash-box">
+            <h2 style= "margin-top: 20px;">Add a new product.</h2>
+            <p style="font-size: .8rem;">Add basic information to your product so you can 
+                sell it in-store as soon as possible. 
+                You can add more catalog information later as needed.
+            </p>
+            <form style="margin-top: 20px;">
+                <div class="add__product-name">
+                    <label for="">Product name</label>
+                    <input type="text" placeholder="Enter product name">
+                </div>
+                
+                <div class="target-box">
+                    <section>
+                      <div onclick="openTar('ta-one')" class="tabClick">
+                        <div>
+                          <input type="radio" id="con-1" name="select" value="1" checked>
+                          <label for="con-1" class="label-flex">
+                            <h2>Standard Product
+                            </h2>
+                            <p>This product is a single SKU with its own inventory.</p>
+                          </label>
+                        </div>
+                        
+                      </div>
+                      <div onclick="openTar('ta-two')" class="tabClick">
+                        <div>
+                          <input type="radio" id="con-2" name="select" value="2">
+                          <label for="con-2" class="label-flex">
+                            <h2>Product with Variants</h2>
+                            <p>This is a group of similar products which have 
+                                different attributes, like size or color.
+                                 Each variant is a unique SKU with its own inventory.
+                            </p>
+                          </label>
+                        </div>
+                        
+                      </div>
+                      
+                    </section>
+                </div>
+
+                <div>
+                    <div id="ta-one" class="item-one">
+                        <div class="ad-pro-cont">
+                            <div class="add-product-head">
+                                <div class="row">
+                                    <div class="column">Product</div>
+                                    <div class="column">SKU Code Type</div>
+                                    <div class="column">SKU Code</div>
+                                    <div class="column">Supply Price</div>
+                                    <div class="column">Markup</div>
+                                    <div class="column">
+                                        Retail Price
+                                        <div style="font-size: .6rem;">
+                                            Excluding Tax
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="add-product-body">
+                                <div class="rows">
+                                    <div class="column">
+                                        Lorry
+                                    </div>
+                                    <div class="column">
+                                        <select name="" id="">
+                                            <option value="">Augo generated</option>
+                                            <option value="">Custom</option>
+                                            <option value="">EAN</option>
+                                            <option value="">ISBN</option>
+                                            <option value="">ITF</option>
+                                            <option value="">JAN</option>
+                                        </select>
+                                    </div>
+                                    <div class="column">
+                                        <input type="text" placeholder="Enter a code">
+                                    </div>
+                                    <div class="column">
+                                        <input type="number" name="" id="" placeholder="0.00">
+                                    </div>
+                                    <div class="column">
+                                        <input type="number" placeholder="0.00">
+                                    </div>
+                                    <div class="column">
+                                        <input type="number" placeholder="0.00">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="add-submit-btn">
+                            <button type="submit">Add Product</button>
+                        </div>
+                        
+                    </div>
+                    
+                    <div id="ta-two" class="item-one" style="display:none">
+                        <div class="add-pro-cont">
+                            <div class="variant-cont-form">
+                                <div class="variant-box">
+                                    <label for="" style="display: flex;align-items: center;justify-content: flex-start; column-gap: 4px;">
+                                        Variant
+                                        <div style="font-weight: 400">
+                                            (e.g. Size)
+                                        </div>
+                                    </label>
+                                    <input type="text" placeholder="Choose an attribute" class="variantInp" readonly>
+                                    <div class="variant-drop-hide shadow">
+                                        <div class="variant-search">
+                                            <form action="">
+                                                <label for="">Search all attributes</label>
+                                                <input type="text">
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="variant-value-box">
+                                    <label for="" style="display: flex;align-items: center;justify-content: flex-start; column-gap: 4px;">
+                                        Value
+                                        <div style="font-weight: 400" >
+                                            (e.g. Small, Medium, Large)
+                                        </div>
+                                    </label>
+                                    <input type="text" placeholder="Enter value for this attribute">
+                                </div>
+                            </div>
+
+                            <a href="#" class="add-another-link">
+                                <button><i class="fas fa-plus"></i>Add another attribute</button>
+                            </a>
+                        </div>
+
+                        <div class="added-variant">
+                            <h3>0 varaints will be added</h3>
+                        </div>
+
+                        <div>
+                            <div class="add-product-head">
+                                <div class="row">
+                                    <div class="column" style="display: flex;align-items: center;justify-content: flex-start; column-gap: 12px;">
+                                        <input type="checkbox" style="transform: scale(1.34);">
+                                        Variant
+                                    </div>
+                                    <div class="column">SKU Code Type</div>
+                                    <div class="column">SKU Code</div>
+                                    <div class="column">Supply Price</div>
+                                    <div class="column">Markup</div>
+                                    <div class="column">
+                                        Retail Price
+                                        <div style="font-size: .6rem;">
+                                            Excluding Tax
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="add-product-body">
+                                <div class="rows">
+                                    <div class="column">
+                                        768
+                                    </div>
+                                    <div class="column">
+                                        <select name="" id="">
+                                            <option value="">Augo generated</option>
+                                            <option value="">Custom</option>
+                                            <option value="">EAN</option>
+                                            <option value="">ISBN</option>
+                                            <option value="">ITF</option>
+                                            <option value="">JAN</option>
+                                        </select>
+                                    </div>
+                                    <div class="column">
+                                        <input type="text" placeholder="Enter a code">
+                                    </div>
+                                    <div class="column">
+                                        <input type="number" name="" id="" placeholder="0.00">
+                                    </div>
+                                    <div class="column">
+                                        <input type="number" placeholder="0.00">
+                                    </div>
+                                    <div class="column">
+                                        <input type="number" placeholder="0.00">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="add-submit-btn add-submit-2">
+                            <div>1 product with 1 variant will be added</div>
+                            <button type="submit">Add Product</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script type="text/javascript">
+        function openTar(item) {
+          var i;
+          var x = document.getElementsByClassName("item-one");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          document.getElementById(item).style.display = "block";
+        };
+    </script>
+
+    <script type="text/javascript">
+        var inp = document.querySelector('.variantInp');
+        var variant = document.querySelector('.variant-drop-hide');
+        var btn = document.querySelector('.add-another-link');
+
+        btn.addEventListener('click', (event) => {
+            event.preventDefault();
+        })
+
+        inp.addEventListener('click', () => {
+            variant.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>

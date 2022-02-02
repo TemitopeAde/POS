@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.css" integrity="sha512-Q0DfJ+I5cbH4Wm20NlPZ/fENHil7k3ZgzI9b71LfQAB1IlM8Gt7aO7eOPX2QzYT+4fZaF6u1kSfZAHczl4r/9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/brands.css" integrity="sha512-ER4UboXz0D7MsL69jRMtQtUry+lwKW4FOhcsD7BUOawqT4Dgq1Tr3Y2i0zBFGm9c3jHNg0gWnPPqzju0CTeOMg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/brands.min.css" integrity="sha512-lCU0XyQA8yobR7ychVxEOU5rcxs0+aYh/9gNDLaybsgW9hdrtqczjfKVNIS5doY0Y5627/+3UVuoGv7p8QsUFw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/fontawesome.css" integrity="sha512-xzy4wQrSuGvX9CdboUReHWcpUEmVpfhP4cQsKW2zPk5Wbcm6RO5qrCQt0P4yKYxqUERpNZlJZP33HqcyvfwxMg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/fontawesome.min.css" integrity="sha512-Rcr1oG0XvqZI1yv1HIg9LgZVDEhf2AHjv+9AuD1JXWGLzlkoKDVvE925qySLcEywpMAYA/rkg296MkvqBF07Yw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/regular.css" integrity="sha512-2L65z4a+ppuAZ7mNmUs+Tl9EJmNRo6C1aXipbQVquYLuh/wVW6wMP/7z4fvCulOt72CzGy+c5iNm4LMQK2W3WA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/regular.min.css" integrity="sha512-lQP1BiSutAy+g9L+bDr1v9758SFLCJ1fK+6tXzu5M22G7/pigzb+01L31Cu1TUlWYr3lnQ4XQVmQfnpTZVW1Og==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/solid.css" integrity="sha512-dK9wFjXEVt5TVm/irRAXqmr+D02Kznpv3eSFK/NqWWCsBsXRsYTW/J/C1w9WYzOt9+N0JTqTPRdVtB3JdIszWQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/solid.min.css" integrity="sha512-WTx8wN/JUnDrE4DodmdFBCsy3fTGbjs8aYW9VDbW8Irldl56eMj8qUvI3qoZZs9o3o8qFxfGcyQocUY0LYZqzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/query.css">
+</head>
+<body style="background-color: var(--whitesmoke);">
+
+        <!-- HEADER START -->
+        <header class="shadow">
+            <div class="header shadow">
+                <div class="section-1">
+                    <a href="#">Temmy</a>
+                </div>
+    
+                <div class="section-2">
+                    <ul>
+                        <li>
+                            <a href="#">help</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="las la-bell"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">temitope adesiyan</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- TOGGLE MENU  -->
+            <div class="toggle">
+                <div class="bars">
+                    <i class="las la-bars"></i>
+                </div>
+            </div>
+            <!-- TOGGLE MENU ENDS  -->
+
+        </header>
+        <!-- HEADER ENDS -->
+
+
+        <!-- sidebar starts -->
+        <div class="sidebar shadow">
+            <div class="wrap">
+                <ul>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closebtn">
+                        x
+                    </a>
+
+                    <li>
+                        <a href="index.html">
+                            <span class="icon"><i class="fa-solid fa-house-user"></i></span>
+                            <span class="title"><h5><a href="">home</a></h5></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="sell.html">
+                            <span class="icon"><i class="fa-solid fa-credit-card"></i></span>
+                            <span class="title"><h5>sell</h5></span>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="sell.html">
+                            <span class="icon"><i class="fa-solid fa-book"></i></span>
+                            <span class="title"><h5>reporting</h5></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="catalog.html">
+                            <span class="icon"><i class="fa-solid fa-warehouse"></i></span>
+                            <span class="title"><h5>catalog</h5></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="stockcontrol.html">
+                            <span class="icon"><i class="fa-solid fa-boxes-stacked"></i></span>
+                            <span class="title"><h5>inventory</h5></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="customer.html">
+                            <span class="icon"><i class="fa-solid fa-people-arrows-left-right"></i></span>
+                            <span class="title"><h5>customers</h5></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="setup.html">
+                            <span class="icon"><i class="fa-solid fa-screwdriver-wrench"></i></span>
+                            <span class="title"><h5>setup</h5></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- sidebar ends -->
+
+
+        <!-- sidebar starts -->
+        <div class="new-sidebar shadow">
+            <div class="wrap">
+                <ul>
+                    <a href="javascript:void(0)" class="closebtn2" onclick="closebtn">
+                        x
+                    </a>
+
+                    <li>
+                        <a href="setup.html">
+                            <span class="title"><h5>General</h5></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="billing.html">
+                            <span class="title"><h5>Billing</h5></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="outlet.html">
+                            <span class="title"><h5>Outlet and Registers</h5></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="paymentype.html">
+                            <span class="title"><h5>Payment Types</h5></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="salestax.html">
+                            <span class="title"><h5>Sales Taxes</h5></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="loyalty.html">
+                            <span class="title"><h5>Loyalty</h5></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="users.html">
+                            <span class="title"><h5>Users</h5></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="apps.html">
+                            <span class="title"><h5>Apps</h5></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="personaltokens.html">
+                            <span class="title"><h5>Personal Tokens</h5></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="storecredit.html">
+                            <span class="title"><h5>Store Credit</h5></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="workflows.html">
+                            <span class="title"><h5>Workflows</h5></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- sidebar ends -->
+
+
+        <div class="container">
+            <div class="main" id="catalog-main">
+
+                <div class="activate">
+                    <div class="flex-activate">
+                        <i class="las la-exclamation-circle"></i>
+                        <h5>You have 14 days left on your trial.</h5>
+                        <a href="#">Activate your account</a>
+                    </div>
+                </div>
+                
+                <div class="title-container">
+                    <h2 class="products">Extend the power of Vend with the best‑in‑class Apps.</h2>
+                    <p>Connect with a world of apps to help you grow and streamline your business.</p>
+                </div>
+               
+
+                <div class="content">
+                    <div class="content-box">
+                        
+                        <div class="app-sections app-1">
+                            <h4>Track Financials</h4>
+
+                            <div class="app-1-grid">
+                                <div class="app">
+                                    <p>Open your store to the world by connecting Vend with the best multi-channel platforms. 
+                                        Manage online and in-store operations from one place while launching your brand into new markets.
+                                    </p>
+                                </div>
+                                <div class="apps shadow">
+                                    <div>
+                                        <div class="apps-info">
+                                            <img src="/images/logo-quickbooks-badge-v2.svg" alt="badge">
+                                            <h4>QuickBooks Online</h4>
+                                            <p>Post end of day sales and payments summaries to your QuickBooks Online account.</p>
+                                            <a href="#">Learn more</a>
+                                        </div>
+                                        <div class="apps-buttons">
+                                            <button class="danger-button">Connect to Vend</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="apps shadow">
+                                    <div>
+                                        <div class="apps-info">
+                                            <img src="/images/logo-xero-badge-v1.png" alt="badge">
+                                            <h4>Xero</h4>
+                                            <p>Automate painful tasks and get total insights into your business with Xero accounting.</p>
+                                            <a href="">Learn More</a>
+                                        </div>
+                                        <div class="apps-buttons">
+                                            <button class="danger-button">Connect to Vend</button>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="apps shadow">
+                                    <div>
+                                        <div class="apps-inf0">
+                                            <img src="/images/myob-logo-v2.png" alt="badge">
+                                            <h4>MYOB AR Live by Amaka</h4>
+                                            <p>Save time and reduce manual accounting work by sending your sales, orders and liabilities automatically to MYOB.</p>
+                                            <a href="#">Learn More</a>
+                                        </div>
+                                        <div class="apps-buttons">
+                                            <button class="danger-button">Connect to Vend</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="app-sections app-1">
+                            <h4>Sell Online</h4>
+
+                            <div class="app-2-grid">
+                                <div class="app">
+                                    <p>Open your store to the world by connecting 
+                                        Vend with the best multi-channel platforms. Manage online and
+                                         in-store operations from one place while launching your brand into new markets.
+                                    </p>
+                                </div>
+                                <div class="apps shadow">
+                                    <div>
+                                        <div class="apps-info">
+                                            <img src="/images/logo-ecwid-badge-v1.png" alt="badge">
+                                            <h4>Ecwid</h4>
+                                            <p>Easily sell across a website, social media, and marketplaces.</p>
+                                            <a href="#">Learn more</a>
+                                        </div>
+                                        <div class="apps-buttons">
+                                            <button class="danger-button">Connect to Vend</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="apps shadow">
+                                    <div>
+                                        <div class="apps-info">
+                                            <img src="/images/logo-bigcommerce-badge-v1.jpg" alt="badge">
+                                            <h4>BigCommerce</h4>
+                                            <p>Discover a better way to sell online, in-store, and across your favorite social channels.</p>
+                                            <a href="">Learn More</a>
+                                        </div>
+                                        <div class="apps-buttons">
+                                            <button class="danger-button">Connect to Vend</button>
+                                        </div>
+                    
+                                    </div>
+                                </div>
+                                <div class="apps shadow">
+                                    <div>
+                                        <div class="apps-inf0">
+                                            <img src="/images/logo-woocommerce-badge-v2.jpg" alt="badge">
+                                            <h4>WooCommerce</h4>
+                                            <p>Sell more flexibly and profitably in-store and online, with the world’s #1 ecommerce platform.</p>
+
+                                            <a href="#">Learn More</a>
+                                        </div>
+                                        <div class="apps-buttons">
+                                            <button class="danger-button">Connect to Vend</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="apps shadow">
+                                    <div>
+                                        <div class="apps-inf0">
+                                            <img src="/images/logo-shopify-badge-v1.png" alt="badge">
+                                            <h4>Shopify</h4>
+                                            <p>Get the best of both worlds. Sell more across your stores and online, seamlessly.</p>
+                                            <a href="#">Learn More</a>
+                                        </div>
+                                        <div class="apps-buttons">
+                                            <button class="danger-button">Connect to Vend</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="app-sections app-1">
+                            <h4>Manage Employees</h4>
+
+                            <div class="app-3-grid">
+                                <div class="app">
+                                    <p>Keep track of employee details, schedules and 
+                                        payroll in one place. Track labour costs 
+                                        alongside sales for accurate budgeting.
+                                    </p>
+                                </div>
+                                <div class="apps shadow">
+                                    <div>
+                                        <div class="apps-info">
+                                            <img src="/images/logo-deputy-badge-v2.png" alt="badge">
+                                            <h4>Deputy</h4>
+                                            <p>Easily track staff sales performance, schedule rosters, and set tasks in Vend.</p>
+                                            <a href="#">Learn more</a>
+                                        </div>
+                                        <div class="apps-buttons">
+                                            <button class="danger-button">
+                                                <a href="#">Find out More</a>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="apps shadow">
+                                    <div>
+                                        <div class="apps-info">
+                                            <img src="/images/logo-homebase-v2.png" alt="badge">
+                                            <h4>Homebase</h4>
+                                            <p>Make work easier with free tools to track time and manage your team.</p>
+                                            <a href="">Learn More</a>
+                                        </div>
+                                        <div class="apps-buttons">
+                                            <button class="danger-button">Connect to Vend</button>
+                                        </div>
+                    
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="app-sections app-1">
+                            <h4>Engage with Customers</h4>
+
+                            <div class="app-3-grid">
+                                <div class="app">
+                                    <p>Stay in touch with customers and drive sales with
+                                         multi-platform tools to deliver timely and targeted marketing.
+                                    </p>
+                                </div>
+                                <div class="apps shadow">
+                                    <div>
+                                        <div class="apps-info">
+                                            <img src="/images/logo-deputy-badge-v2.png" alt="badge">
+                                            <h4>Marsello</h4>
+                                            <p>Grow sales with smart, targeted loyalty marketing automation that gets results.</p>
+                                            
+                                        </div>
+                                        <div class="apps-buttons">
+                                            <button class="danger-button">
+                                                <a href="#">Find out More</a>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="apps shadow">
+                                    <div>
+                                        <div class="apps-info">
+                                            <img src="/images/logo-homebase-v2.png" alt="badge">
+                                            <h4>Mailchimp</h4>
+                                            <p>All-in-one marketing platform for email, ads and customer campaigns to drive sales.</p>
+                                            <a href="">Learn More</a>
+                                        </div>
+                                        <div class="apps-buttons">
+                                            <button class="danger-button">Connect to Vend</button>
+                                        </div>
+                    
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="app-sections app-1">
+                            <h4>Other Apps</h4>
+
+                            <div class="app-1-grid">
+                                <div class="app">
+                                    <p>Extend the power of Vend with these leading business apps.
+                                    </p>
+                                </div>
+                                <div class="apps shadow">
+                                    <div>
+                                        <div class="apps-info">
+                                            <img src="/images/logo-quickbooks-badge-v2.svg" alt="badge">
+                                            <h4>Fobi</h4>
+                                            <p>Turn real-time data into actionable insights and customer engagement.</p>
+                                            <a href="#">Learn more</a>
+                                        </div>
+                                        <div class="apps-buttons">
+                                            <button class="danger-button">Request Free Demo</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="apps shadow">
+                                    <div>
+                                        <div class="apps-info">
+                                            <img src="/images/logo-quickbooks-badge-v2.svg" alt="badge">
+                                            <h4>Fobi</h4>
+                                            <p>Turn real-time data into actionable insights and customer engagement.</p>
+                                            <a href="#">Learn more</a>
+                                        </div>
+                                        <div class="apps-buttons">
+                                            <button class="danger-button">Request Free Demo</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="apps shadow">
+                                    <div>
+                                        <div class="apps-info">
+                                            <img src="/images/logo-quickbooks-badge-v2.svg" alt="badge">
+                                            <h4>Fobi</h4>
+                                            <p>Turn real-time data into actionable insights and customer engagement.</p>
+                                            <a href="#">Learn more</a>
+                                        </div>
+                                        <div class="apps-buttons">
+                                            <button class="danger-button">Request Free Demo</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                
+
+                
+            </div>
+        </div>
+    
+    
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

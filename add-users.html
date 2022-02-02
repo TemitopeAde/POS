@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.css" integrity="sha512-Q0DfJ+I5cbH4Wm20NlPZ/fENHil7k3ZgzI9b71LfQAB1IlM8Gt7aO7eOPX2QzYT+4fZaF6u1kSfZAHczl4r/9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/brands.css" integrity="sha512-ER4UboXz0D7MsL69jRMtQtUry+lwKW4FOhcsD7BUOawqT4Dgq1Tr3Y2i0zBFGm9c3jHNg0gWnPPqzju0CTeOMg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/brands.min.css" integrity="sha512-lCU0XyQA8yobR7ychVxEOU5rcxs0+aYh/9gNDLaybsgW9hdrtqczjfKVNIS5doY0Y5627/+3UVuoGv7p8QsUFw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/fontawesome.css" integrity="sha512-xzy4wQrSuGvX9CdboUReHWcpUEmVpfhP4cQsKW2zPk5Wbcm6RO5qrCQt0P4yKYxqUERpNZlJZP33HqcyvfwxMg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/fontawesome.min.css" integrity="sha512-Rcr1oG0XvqZI1yv1HIg9LgZVDEhf2AHjv+9AuD1JXWGLzlkoKDVvE925qySLcEywpMAYA/rkg296MkvqBF07Yw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/regular.css" integrity="sha512-2L65z4a+ppuAZ7mNmUs+Tl9EJmNRo6C1aXipbQVquYLuh/wVW6wMP/7z4fvCulOt72CzGy+c5iNm4LMQK2W3WA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/regular.min.css" integrity="sha512-lQP1BiSutAy+g9L+bDr1v9758SFLCJ1fK+6tXzu5M22G7/pigzb+01L31Cu1TUlWYr3lnQ4XQVmQfnpTZVW1Og==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/solid.css" integrity="sha512-dK9wFjXEVt5TVm/irRAXqmr+D02Kznpv3eSFK/NqWWCsBsXRsYTW/J/C1w9WYzOt9+N0JTqTPRdVtB3JdIszWQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/solid.min.css" integrity="sha512-WTx8wN/JUnDrE4DodmdFBCsy3fTGbjs8aYW9VDbW8Irldl56eMj8qUvI3qoZZs9o3o8qFxfGcyQocUY0LYZqzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/queries.css">
+</head>
+<body class="step-form flex-center">
+    <div class="container" style="overflow-x: hidden;">    
+        <form id="form1">
+            <h2>Where is your outlet?</h2>
+            <p>Enter your stores physical address so Vend can help create the right settings for this outlet.</p>
+            <div class="">
+                <label for="street">Street Address</label>
+                <input type="text" id="street" placeholder="Enter a street">
+            </div>
+            <div class="">
+                <label for="timezone">Time Zone</label>
+                <select name="" id="timezone">
+                    <option value="">(GMT+01:00) Africa/Lagos</option>
+                </select>
+            </div>
+            <div class="form-buttons">
+                <button type="button" class="button2" id="next1">Next</button>
+            </div>
+           
+        </form>
+        <form id="form2">
+            <h2>Where is your outlet?</h2>
+            <p>Outlet names are used in important places such as inventory orders, reporting, and sales history. It helps to have a meaningful name, like a description of its location, so others can easily and quickly recognize it.</p>
+            <div class="">
+                <label for="street">Outlet Name</label>
+                <input type="text" id="street" placeholder="Outlet Name">
+            </div>
+
+            <div class="location">
+                <i class="fas fa-map-marker-alt"></i>
+                Ibadan road
+            </div>
+
+            <div class="form-buttons">
+                <button type="button" id="back1">Back</button>
+                <button type="button" class="button2" id="next2">Next</button>
+            </div>
+
+            
+            
+        </form>
+        <form id="form3">
+            <h2>Assign a sales tax to the "Main Outlet" outlet.</h2>
+            <p>The default sales tax will be applied to products sold at this outlet. For products that require different tax rates, you can create separate tax rates later on and apply them when editing a product.</p>
+            <div class="">
+                <label for="d-sales-tax">Default Sales Tax</label>
+                <div class="dropdown">
+                    <input type="text" placeholder="Default Sales Tax" id="textBox" />
+
+                    <div class="options">
+                        <div onclick="show('No tax')">
+                            No Tax
+                        </div>
+                        <div onclick="show('5% Tax')">
+                            5% Tax
+                        </div>
+                        <div class="add-sales-tax">
+                            <a href="#">
+                                <i class="fas fa-plus-circle"></i>Add a new Sales Tax
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="location">
+                <i class="fas fa-map-marker-alt"></i>
+                Ibadan road
+            </div>
+
+            <div class="form-buttons">
+                <button type="button" id="back2">Back</button>
+                <button type="button" class="button2" id="next3">Next</button>
+            </div>
+
+            
+            
+        </form>
+        <form id="form4">
+            <h2>What registers does the "Main Outlet" outlet need?</h2>
+            <p>If you have different departments, payment counters or POS machines in this outlet,
+                 it’s important to set up registers for each of them so you can accurately report
+                  on staff activities, sales performance, payments and more. 
+                  If you have an integrated ecommerce store you should also create a register for that.
+            </p>
+            <div class="">
+                <label for="street">Registers</label>
+                <input type="text" id="street" placeholder="Main Register">
+            </div>
+            <div class="location">
+                <i class="fas fa-map-marker-alt"></i>
+                Ibadan road
+            </div>
+            <div>
+                <button type="button" class="button3">
+                    <a href="#">Add another Register</a>
+                </button>
+            </div>
+            <div class="form-buttons">
+                <button type="button" id="back3">Back</button>
+                <button type="submit" class="button2">Save Outlet</button>
+            </div>
+        </form>
+        <div class="step-row">
+            <!-- <div id="progress"></div> -->
+            <div class="step-col step-color" id="step1">Location</div>
+            <div class="step-col" id="step2">Name</div>
+            <div class="step-col" id="step3">Taxes</div>
+            <div class="step-col" id="step4">Registers</div>
+        </div>
+    </div>
+
+
+
+    <script>
+
+
+        var drop = document.querySelector('.dropdown');
+        text = document.querySelector('#textBox')
+        
+        var stp1 = document.getElementById('step1');
+        var stp2 = document.getElementById('step2');
+        var stp3 = document.getElementById('step3');
+        var stp4 = document.getElementById('step4');
+
+        var pro = document.getElementById('progress')
+        var form1 = document.querySelector("#form1");
+        var form2 = document.querySelector("#form2");
+        var form3 = document.querySelector('#form3');
+        var form4 = document.querySelector('#form4');
+
+        var next1 = document.getElementById('next1');
+        var next2 = document.getElementById('next2');
+        var next3 = document.getElementById('next3');
+
+        var back1 = document.getElementById('back1');
+        var back2 = document.getElementById('back2');
+        var back3 = document.getElementById('back3');
+
+
+        function show (option) {
+            text.value = option
+        }
+
+        drop.addEventListener('click', function() {
+            drop.classList.toggle('active');
+        })
+
+        next1.addEventListener('click', function() {
+            form1.style.left = '850px';
+            form2.style.left = '30px';
+            stp1.classList.remove('step-color');
+            stp2.classList.add('step-color');
+        });
+        next2.addEventListener('click', function() {
+            form3.style.left = '30px';
+            form2.style.left = '850px';
+            stp2.classList.remove('step-color');
+            stp3.classList.add('step-color');
+        });
+
+        back1.addEventListener('click', function() {
+            form1.style.left = "30px";
+            form2.style.left = '850px';
+            stp2.classList.remove('step-color');
+            stp1.classList.add('step-color');
+        });
+
+        next3.addEventListener('click', function() {
+            form4.style.left = '30px';
+            form3.style.left = '850px';
+            stp3.classList.remove('step-color');
+            stp4.classList.add('step-color');
+        });
+
+        back2.addEventListener('click', function() {
+            form3.style.left = '850px';
+            form2.style.left = '30px';
+            stp2.classList.add('step-color');
+            stp3.classList.remove('step-color');
+        });
+
+        back3.addEventListener('click', function() {
+            form4.style.left = '850px';
+            form3.style.left = '30px';
+            stp4.classList.remove('step-color');
+            stp3.classList.add('step-color');
+        })
+    </script>
+
+
+
+</body>
+</html>
